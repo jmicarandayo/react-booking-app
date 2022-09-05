@@ -1,0 +1,25 @@
+.property-list {
+    display: flex;
+    gap: 20px;
+}
+
+.property-item {
+    cursor: pointer; 
+}
+
+.property-image {
+    border-radius: 10px;
+    height: 150px;
+    width: 100%;
+    object-fit: cover;
+}
+
+.property-title>h1 {
+    font-size: 1.1rem;
+    text-transform: capitalize;
+}
+
+.property-title>h2 {
+    font-size: .9rem;
+    font-weight: 300;
+}

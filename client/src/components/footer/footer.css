@@ -1,0 +1,28 @@
+.footer {
+    width: 100%;
+    max-width: 1024px;
+    margin: 0 auto;
+    margin-top: 20px;
+    color: #1c85d6;;
+
+}
+
+.footer-lists {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-list {
+    list-style: none;
+    font-size: .8rem;
+}
+
+.footer-item {
+    margin-bottom: 5px;
+}
+
+.copyright {
+    font-size: .7rem;
+    margin-top: 50px;
+    color: #000;
+}

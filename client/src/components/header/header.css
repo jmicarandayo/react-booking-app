@@ -1,0 +1,133 @@
+.header {
+    padding: 50px 0 100px 0;
+    background-color: #0038b0;
+    color: #fff;
+    position: relative;
+}
+.header-container {
+    width: 100%;
+    max-width: 1024px;
+    margin: 0 auto;
+}
+.list-mode {
+    padding: 50px 0px 50px 0px;
+}
+.header-lists {
+    display: flex;
+    gap: 40px;
+    margin-bottom: 50px;
+}
+
+.header-item {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    cursor: pointer;
+}
+
+.header-item.active {
+    border: 1px white solid;
+    padding: 10px 20px;
+    border-radius: 50px;
+}
+
+.header-title {
+    letter-spacing: 2px;
+}
+
+.header-desc {
+    padding: 20px 0;
+}
+
+.header-button {
+    border: none;
+    padding: 10px 20px;
+    background-color: #1c85d6;
+    color: #fff;
+    cursor: pointer;
+}
+
+/* searchbar */
+
+.search {
+    border: 3px solid rgb(242, 208, 16);
+    padding: 10px 0;
+    background-color: #fff;
+    border-radius: 5px;
+    position: absolute;
+    bottom: -30px;
+    width: 100%;
+    max-width: 1024px;
+}
+
+.search-lists {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.search-items {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.search-icon {
+    color: lightgray;
+}
+
+.search-input {
+    outline: none;
+    border: none;
+}
+
+.search-text {
+    color: lightgray;
+    cursor: pointer;
+}
+
+.date {
+    position: absolute;
+    top: 55px;
+    z-index: 2;
+}
+
+.options {
+    position: absolute;
+    top: 55px;
+    box-shadow: 0px 0px 15px -11px rgba(0,0,0,0.75);
+    background-color: #fff;
+    border-radius: 5px;
+    color: gray;
+}
+
+.option-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 200px;
+    margin: 10px;
+}
+.option-button {
+    height: 30px;
+    width: 30px;
+    cursor: pointer;
+    background-color: #fff;
+    cursor: pointer;
+    border: 1px solid #0038b0;
+    color: #0038b0;
+}
+
+.option-button:disabled {
+    cursor: not-allowed;
+}
+.option-number {
+    color: #000;
+    font-size: .8rem;
+}
+.option-counter {
+    width: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* gap: 10px; */
+}

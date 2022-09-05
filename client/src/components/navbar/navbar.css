@@ -1,0 +1,35 @@
+.navbar {
+    /* height: 50px; */
+    padding: .6em 0;
+    background-color: #0038b0;
+    /* display: flex; */
+    /* justify-content: center; */
+}
+
+.nav-container {
+    width: 100%;
+    max-width: 1024px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo-name {
+    text-decoration: none;
+}
+.logo {
+    font-size: 1.2rem;
+    color: #fff;
+}
+
+.nav-button {
+    border: none;
+    padding: 5px 10px;
+    margin-left: 10px;
+    color: #0038b0;
+    cursor: pointer;
+}
+
+.username {
+    color: #fff;
+}
